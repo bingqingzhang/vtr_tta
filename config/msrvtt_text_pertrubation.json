@@ -1,0 +1,15 @@
+{
+    "dataset_name": "MSRVTT",
+    "videos_dir": "/path/to/MSRVTT_Videos",
+    "msrvtt_train_file": "9k",
+    "num_frames": 12,
+    "video_sample_type": "uniform",
+    "input_res": 224,
+    
+    "noised_text_dir": "/path/to/MSRVTT/noised_texts",
+    "noise_types": ["ocr", "char_insert", "char_replace","char_swap","char_delete", "synonym_replace", "word_insert", "word_swap", "word_delete", "insert_punctuation", "back_translation","formal","casual","passive","active"],
+    "severity": [7,7,7,7,7,2,2,2,2,2,1,1,1,1,1],
+
+    "preprocess_dir": null,
+    "use_preprocessed": false
+}

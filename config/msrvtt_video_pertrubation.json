@@ -1,0 +1,15 @@
+{
+    "dataset_name": "MSRVTT",
+    "videos_dir": "/path/to/MSRVTT_Videos",
+    "msrvtt_train_file": "9k",
+    "num_frames": 12,
+    "video_sample_type": "uniform",
+    "input_res": 224,
+    
+    "noised_video_dir": "/path/to/MSRVTT/noised_videos",
+    "noise_types": ["gaussian", "impulse", "fog", "snow", "elastic_distortion", "h264_compression", "motion_blur", "video_defocus", "main_object_occlusion", "style_transfer", "event_insertion", "temporal_scrambling"],
+    "severity": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+    "save_format": "pt",
+    "preprocess_dir": null,
+    "use_preprocessed": false
+}

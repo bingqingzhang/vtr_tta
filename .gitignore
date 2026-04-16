@@ -1,0 +1,15 @@
+.git
+.idea
+__pycache__/
+*.pt
+ckpts/
+.vscode/
+logs/
+outputs/
+cache_dir/
+tta_outputs/
+*.npy
+*.mp4
+*.pdf
+*.pth
+vis_lab/rm_acc
